@@ -1,5 +1,9 @@
 # Advent of Code 2020
 
+* [Day 01](#day-01)
+  + [Part 1](#part-1)
+  + [Part 2](#part-2)
+
 ## Day 01
 ### Part 1
 Before you leave, the Elves in accounting just need you to fix your expense report (your puzzle input); apparently, something isn't quite adding up.
