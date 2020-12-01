@@ -73,7 +73,7 @@ def get_product(numbers):
   return the_product
 
 
-with open('day1_input.txt', 'r') as f:
+with open('day_01_input.txt', 'r') as f:
   raw = f.readlines()
 data = list()
 for line in raw:
