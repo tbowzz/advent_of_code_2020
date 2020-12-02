@@ -1,6 +1,6 @@
 def part_1(data)
   data.sort!
-  (0..data.length - 1).each do |ii|
+  data.length.times do |ii|
     (ii..data.length - 1).each do |jj|
       if data[ii] + data[jj] == 2020
         return [data[ii], data[jj]]
@@ -11,7 +11,7 @@ end
 
 def part_2(data)
   data.sort!
-  (0..data.length - 1).each do |ii|
+  data.length.times do |ii|
     (ii..data.length - 1).each do |jj|
       (jj..data.length - 1).each do |kk|
         if data[ii] + data[jj] + data[kk] == 2020
