@@ -75,7 +75,7 @@ def product(numbers)
   product
 end
 
-text=File.open('day_01_input.txt').read
+text = File.open('day_01_input.txt').read
 data = text.each_line.map { |line| Integer(line) }
 
 selected_numbers, elapsed = run_many_times(method(:part_1), data)
