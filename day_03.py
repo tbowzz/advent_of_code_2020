@@ -1,8 +1,3 @@
-import math
-from copy import deepcopy
-# right 3, down 1:
-
-
 def traverse(col_movement, row_movement):
     row_index = 0
     col_index = 0
@@ -28,7 +23,7 @@ for line in raw:
     rows.append(cols)
 
 tree_count_1_1 = traverse(1, 1)
-tree_count_3_1 = traverse(3, 1) # Part 1 solution
+tree_count_3_1 = traverse(3, 1)  # Part 1 solution
 tree_count_5_1 = traverse(5, 1)
 tree_count_7_1 = traverse(7, 1)
 tree_count_1_2 = traverse(1, 2)
